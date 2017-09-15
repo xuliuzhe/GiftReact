@@ -11,7 +11,7 @@ const { Content, Footer } = Layout;
 class App extends Component {
     state = {
         collapsed: false,
-    };
+    };  
     componentWillMount() {
         const { receiveData } = this.props;
         const user = JSON.parse(localStorage.getItem('user'));
